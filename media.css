@@ -1,0 +1,212 @@
+@media (max-width:1140px) {
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.746);
+        width: 100%;
+        height: 100vh;
+        z-index: 10;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transform: translateX(100%);
+        transition: 500ms;
+
+    }
+    .burger:hover ~ .nav-link{
+        transform: translateX(0);
+    }
+    .burger:hover ~ .nav-icons{
+        transform: translateX(0);
+    }
+    .burger{
+        display: block;
+        color: #1f2e35;
+        padding-top: 20px;
+        font-size: 60px;
+        position: fixed;
+        right: 3%;
+        z-index: 100;
+        opacity: 1;
+    }
+    .nav-icons{
+        z-index: 10;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        display: flex;
+        position: fixed;
+        top: 80%;
+        left: 34%;
+        transform: translateX(400%);
+        transition: 500ms;
+    }
+    .header-content{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; 
+        flex: 1;  
+    }
+    .header-img{
+        order: 1;
+    }
+    .header-title{
+        order: 2;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-content__link i{
+        display: block;
+        color: #1F2E35;
+        padding-top: 20px;
+        font-size: 60px;
+    }
+    .nav-content__link i ~ .nav-link:hover{
+        opacity: 1;
+    }
+    .just h1{
+        text-align: center;
+        font-size: 36px;
+        width: 361px;
+        align-items: center;
+    }
+    .just h1:nth-child(2){
+        text-align: center;
+        font-size: 36px;
+        width: 361px;
+    }
+    .just-background{
+        background-repeat: no-repeat;
+
+    }
+    .service{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; 
+        flex: 1;  
+    }
+    .service img{
+        order: 2;
+    }
+    .service p{
+        order: 1;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:960px){
+    .header-title h1{
+        text-align: center;
+    }
+    .header-title p{
+        text-align: center;
+    }
+    .samsara-content{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .samsara-title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .product-content{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .our{
+        align-items: center;
+        justify-content: center;
+    }
+    .our p{
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-logo{
+        margin-left: 70px;
+
+        margin-right: 0;
+    }
+    .footer-info{
+        
+        padding-bottom: 32px;
+    }
+    .footer-img{
+        padding-left: 0;
+    }
+}
+@media (max-width:760px){
+    .header-title h1{
+        font-size: 34px;
+    }
+    .header-title h2{
+        font-size: 34px;
+    }
+    .header-img{
+        object-fit: cover;
+        width: 350px;
+        height: 237px;
+    }
+    .samsara-img{
+        width: 350px;
+        height: 340px;
+        object-fit: cover;
+        display: flex;
+    }
+    .footer-img a{
+        width: 350px;
+        height: 87px;
+        object-fit: cover;
+        display: flex;
+        padding-left: 0;
+    }
+
+
+}
+@media (max-width:360px){
+    .header-title h1{
+        font-size: 34px;
+    }
+    .header-title h2{
+        font-size: 34px;
+    }
+    .header-img{
+        object-fit: cover;
+        width: 300px;
+        height: 180px;
+    }
+    .samsara-img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+    }
+    .footer-img img{
+        width: 300px;
+        height: 87px;
+        object-fit: cover;
+        display: flex;
+
+
+    }
+
+
+}
